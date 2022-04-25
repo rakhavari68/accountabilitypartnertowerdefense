@@ -1,10 +1,10 @@
 import socket
 
 HEADER = 64
-PORT = 8006
+PORT = 8007
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = "!DISCONNECT"
-SERVER = "172.16.0.80"
+SERVER = ""
 ADDR = (SERVER, PORT)
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

@@ -3,7 +3,7 @@ import threading
 
 HEADER = 64
 PORT = 8007
-SERVER = socket.gethostbyname("172.16.0.80")
+SERVER = socket.gethostbyname("")
 ADDR = (SERVER, PORT)
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = "!DISCONNECT"
